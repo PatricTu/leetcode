@@ -22,4 +22,15 @@ public class ListNode {
         }
         return node;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        ListNode p = this;
+        while (p != null) {
+            sb.append(p.val);
+            p = p.next;
+        }
+        return sb.toString();
+    }
 }
