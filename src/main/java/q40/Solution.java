@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * DFS
+ * sort -> DFS
  * TODO
  */
 public class Solution {
